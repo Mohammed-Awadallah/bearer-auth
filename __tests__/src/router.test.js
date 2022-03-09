@@ -1,5 +1,5 @@
 'use strict';
-
+process.env.SECRET = "Burger"
 require('dotenv').config();
 const supertest = require('supertest');
 const {server} = require('../../src/server.js');

@@ -1,5 +1,5 @@
 'use strict';
-
+process.env.SECRET = "Burger"
 const middleware = require('../../src/auth/middleware/basic.js');
 const { db, user } = require('../../src/auth/models/index.js');
 

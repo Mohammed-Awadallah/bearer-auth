@@ -1,6 +1,7 @@
-'use strict';
+'use strict'
 
 require('dotenv').config();
+process.env.SECRET = "Burger"
 const middleware = require('../../src/auth/middleware/bearer.js');
 const { db, user } = require('../../src/auth/models/index.js');
 const jwt = require('jsonwebtoken')
